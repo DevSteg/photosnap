@@ -19,7 +19,7 @@ const BannerThree = () => {
 				</div>
 				<img
 					src="https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner3.jpg"
-					alt="Banner"
+					alt="Banner Three, Man Holding camera"
 					className="banner-img"
 				/>
 			</section>
