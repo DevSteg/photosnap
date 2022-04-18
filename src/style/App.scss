@@ -1,0 +1,17 @@
+@use "_navbar";
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@200;400;600;700&display=swap");
+
+body {
+	color: black;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Anek Bangla", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
