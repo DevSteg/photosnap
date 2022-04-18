@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import BannerOne from "./components/BannerOne";
 import "./style/App.scss";
+import PhotoBlock from "./components/PhotoBlock";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			</header>
 			<main>
 				<BannerOne />
+				<PhotoBlock />
 			</main>
 		</div>
 	);
