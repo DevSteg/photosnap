@@ -3,6 +3,7 @@ import BannerOne from "./components/BannerOne";
 import "./style/App.scss";
 import PhotoBlock from "./components/PhotoBlock";
 import BottomBanner from "./components/BottomBanner";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -15,6 +16,9 @@ function App() {
 				<PhotoBlock />
 				<BottomBanner />
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }
