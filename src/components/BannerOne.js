@@ -1,6 +1,8 @@
 import React from "react";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import BannerTwo from "./BannerTwo";
+import BannerThree from "./BannerThree";
 
 const BannerOne = () => {
 	return (
@@ -19,10 +21,12 @@ const BannerOne = () => {
 				</div>
 				<img
 					src="https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner1.jpg"
-					alt="Banner"
+					alt="Banner One, Man standing on lake peir"
 					className="banner-img"
 				/>
 			</section>
+			<BannerTwo />
+			<BannerThree />
 		</>
 	);
 };
