@@ -1,0 +1,24 @@
+.bottom-section {
+	display: flex;
+	height: 400px;
+	justify-content: space-around;
+	align-items: center;
+	@media screen and (max-width: 1200px) {
+		flex-direction: column;
+		height: auto;
+	}
+}
+
+.bottom-div {
+	text-align: center;
+	width: 20%;
+	@media screen and (max-width: 1200px) {
+		margin-top: 50px;
+		width: auto;
+	}
+}
+
+.bottom-para {
+	font-size: 0.7rem;
+	padding: 0 8px;
+}

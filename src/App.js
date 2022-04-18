@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import BannerOne from "./components/BannerOne";
 import "./style/App.scss";
 import PhotoBlock from "./components/PhotoBlock";
+import BottomBanner from "./components/BottomBanner";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<main>
 				<BannerOne />
 				<PhotoBlock />
+				<BottomBanner />
 			</main>
 		</div>
 	);
